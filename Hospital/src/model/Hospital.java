@@ -86,14 +86,7 @@ public class Hospital {
 				output += "<td>" + H_email + "</td>";
 
 				// buttons
-				/*
-				 * output +=
-				 * "<td><input name=\"btnUpdate\" type=\"submit\"value=\"Update\" class=\"btn btn-warning btnUpdate\"></td>"
-				 * + "<td><form method=\"post\" action=\"Hospital_Config.jsp\">" +
-				 * "<input name=\"btnRemove\" type=\"submit\" value=\"Remove\"class=\"btn btn-danger\">"
-				 * + "<input name=\"hidHospitalIDDelete\" type=\"hidden\" value=\"" + H_ID +
-				 * "\">" + "</form></td></tr>";
-				 */
+				
 				
 				output += "<td><input name='btnUpdate'type='button' "
 						+ "value='Update'class='btnUpdate btn btn-secondary'></td>"
