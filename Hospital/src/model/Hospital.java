@@ -112,7 +112,7 @@ public class Hospital {
 	}
 
 	public String updateHopital(String ID, String hName, String contactNo, String address, String email) {
-		System.out.println(hName);
+		
 		String output = "";
 		try {
 			Connection con = obj.connect();

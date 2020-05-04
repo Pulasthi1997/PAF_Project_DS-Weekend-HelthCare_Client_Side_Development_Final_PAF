@@ -139,6 +139,8 @@ function validateHospitalForm()
         return "Insert Hospital Name.";
     }
     
+    
+    
     // Phone Number-------------------------------
     if ($("#H_contactNumber").val().trim() == "")
     {
