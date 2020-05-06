@@ -89,7 +89,7 @@ public class Hospital {
 				
 				
 				output += "<td><input name='btnUpdate'type='button' "
-						+ "value='Update'class='btnUpdate btn btn-secondary'></td>"
+						+ "value='Update'class='btnUpdate btn btn-success'></td>"
 						+ "<td><input name='btnRemove'type='button' "
 						+ "value='Remove'class='btnRemove btn btn-danger'data-hospitalid='"+ H_ID + "'>" + "</td></tr>";
 				
